@@ -11,6 +11,12 @@ namespace ConsoleApp1
             Console.WriteLine(num);
             #endregion
 
+            #region Q2
+            string i = "7531_MMM";
+            int j = Convert.ToInt32(i);
+            Console.WriteLine(j);
+            // the program will show FormatException :=> System.FormatException: 'Input string was not in a correct format.'
+            #endregion
         }
     }
 }
