@@ -11,14 +11,14 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             #region Q1
-            int num = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine(num);
+            int num1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(num1);
             #endregion
 
             #region Q2
-             //string i = "7531_MMM";
-             //int j = Convert.ToInt32(i);
-             //Console.WriteLine(j);
+             string i = "7531_MMM";
+             int j = Convert.ToInt32(i);
+             Console.WriteLine(j);
             // the program will show FormatException :=> System.FormatException: 'Input string was not in a correct format.'
             #endregion
 
@@ -70,6 +70,17 @@ namespace ConsoleApp1
             #region Q9
             Console.WriteLine(13 / 2 + " " + 13 % 2);
             // Answer is D => 6 1
+            #endregion
+
+            #region Q10
+            int num = 1, z = 5;
+
+
+            if (!(num <= 0))
+                Console.WriteLine(++num + z++ + " " + ++z);
+            else
+                Console.WriteLine(--num + z-- + " " + --z);
+            // Answer is D => 7 7
             #endregion
         }
     }
