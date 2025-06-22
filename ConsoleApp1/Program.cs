@@ -32,6 +32,14 @@ namespace ConsoleApp1
             Console.WriteLine(subs);
             // Output : Assign
             #endregion
+
+            #region Q5
+            int m = 2;
+            int n = m;
+            n = 4;
+            Console.WriteLine("a: " + m + " b: " + n);
+            // M is still 2
+            #endregion
         }
     }
 }
