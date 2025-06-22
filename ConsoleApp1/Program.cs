@@ -60,6 +60,12 @@ namespace ConsoleApp1
             string H_W = H + " " + W;
             Console.WriteLine("Full Name: " + H_W);
             #endregion
+
+            #region Q8
+            int d;
+            d = Convert.ToInt32(!(30 < 20));
+            // Answer is A
+            #endregion
         }
     }
 }
