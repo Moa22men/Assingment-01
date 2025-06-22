@@ -12,9 +12,9 @@ namespace ConsoleApp1
             #endregion
 
             #region Q2
-             string i = "7531_MMM";
-             int j = Convert.ToInt32(i);
-             Console.WriteLine(j);
+             //string i = "7531_MMM";
+             //int j = Convert.ToInt32(i);
+             //Console.WriteLine(j);
             // the program will show FormatException :=> System.FormatException: 'Input string was not in a correct format.'
             #endregion
 
@@ -24,6 +24,13 @@ namespace ConsoleApp1
             float result = x - y;
             Console.WriteLine(result);
             // result = 3.9
+            #endregion
+
+            #region Q4
+            string s = "C# Assignment";
+            string subs = s.Substring(3, 6);
+            Console.WriteLine(subs);
+            // Output : Assign
             #endregion
         }
     }
