@@ -64,7 +64,12 @@ namespace ConsoleApp1
             #region Q8
             int d;
             d = Convert.ToInt32(!(30 < 20));
-            // Answer is A
+            // Answer is B => A value 1 will be assigned to d.
+            #endregion
+
+            #region Q9
+            Console.WriteLine(13 / 2 + " " + 13 % 2);
+            // Answer is D => 6 1
             #endregion
         }
     }
