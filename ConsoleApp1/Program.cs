@@ -4,6 +4,10 @@ namespace ConsoleApp1
 {
     internal class Program
     {
+        class C1
+        {
+            public int v;
+        }
         static void Main(string[] args)
         {
             #region Q1
@@ -39,6 +43,15 @@ namespace ConsoleApp1
             n = 4;
             Console.WriteLine("a: " + m + " b: " + n);
             // M is still 2
+            #endregion
+
+            #region Q6
+            C1 obj1 = new C1();
+            obj1.v = 1;
+            C1 obj2 = obj1;
+            obj2.v = 3;
+            Console.WriteLine(obj1.v);
+            // obj1.v = 3
             #endregion
         }
     }
