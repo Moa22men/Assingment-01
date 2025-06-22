@@ -53,6 +53,13 @@ namespace ConsoleApp1
             Console.WriteLine(obj1.v);
             // obj1.v = 3
             #endregion
+
+            #region Q7
+            string H = "Hello";
+            string W = "World";
+            string H_W = H + " " + W;
+            Console.WriteLine("Full Name: " + H_W);
+            #endregion
         }
     }
 }
